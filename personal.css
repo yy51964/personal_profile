@@ -345,7 +345,7 @@ top: 0px;
   border-bottom: 0.3px solid white;
 }
 .fullcover {
-  background-image: url("../CSS/background0.jpg");
+  background-image: url("background0.jpg");
   height: 100%;
   text-align: center;
   width: 100%;
@@ -356,7 +356,7 @@ top: 0px;
 }
 
 .fullcoverpsbc {
-  background-image:  url("../CSS/background0.jpg");
+  background-image:  url("background0.jpg");
   height: 100%;
   background-size: cover;
   text-align: center;
