@@ -366,18 +366,7 @@ top: 0px;
   padding-bottom: 400px;
   position: relative;
 }
- 
- {
-  background-image: url("../CSS/background0.jpg");
-  height: 100%;
-  background-size: cover;
-  text-align: center;
-  width: 100%;
-  text-transform: uppercase;
-  padding-top: 175px;
-  padding-bottom: 100%;
-  position: relative;
-}
+
 
 .contactme {
   border-color: #e83058;
