@@ -352,7 +352,7 @@ top: 0px;
   text-transform: uppercase;
   padding-top: 90px;
   padding-bottom: 500px;
-  position: absolute;
+  position: relative;
 }
 
 .fullcoverpsbc {
