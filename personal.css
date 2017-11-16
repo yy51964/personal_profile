@@ -345,13 +345,14 @@ top: 0px;
   border-bottom: 0.3px solid white;
 }
 .fullcover {
-  background-image: url("background0.jpg");
+  background-image:  url("background0.jpg");
   height: 100%;
+  background-size: cover;
   text-align: center;
   width: 100%;
   text-transform: uppercase;
-  padding-top: 90px;
-  padding-bottom: 500px;
+  padding-top: 175px;
+  padding-bottom: 400px;
   position: relative;
 }
 
