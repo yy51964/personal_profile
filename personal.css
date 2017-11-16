@@ -198,6 +198,7 @@ text-decoration: underline;
   width: 25%;
   margin: 25px;
   text-decoration: none;
+  padding-left: 20px; 
 }
 
 .thumbnail:hover {
