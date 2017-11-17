@@ -179,7 +179,7 @@ text-decoration: underline;
   width: 100%;
   background-color:  #e83058;
   margin: 60px;
-  align: center;
+  
 }
 
 table {
@@ -187,6 +187,10 @@ table {
   font-family: 'Berkshire Swash', 'Bree Serif', serif;
   font-size: 25px;  
   cellspacing: 10px;
+}
+
+.classes {
+    align: center;
 }
 
 /* ending of body for home.html */
