@@ -182,8 +182,10 @@ text-decoration: underline;
 }
 
 table {
-  margin: 50px;
-  font-family: 'Berkshire Swash', 'Bree Serif', serif;  
+  margin: 70px;
+  font-family: 'Berkshire Swash', 'Bree Serif', serif;
+  font-size: 25px;  
+  cellspacing: 10px;
 }
 
 /* ending of body for home.html */
