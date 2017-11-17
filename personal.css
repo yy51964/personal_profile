@@ -187,17 +187,7 @@ text-decoration: underline;
 
 
 /* beginning of body for portfolio.html */
-.gallery {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-  position: inherit;
-}
-.thumbnail:hover {
-  filter: opacity(0.7);
 
-}
 
 .text {
   font-family: 'Bree Serif', sans-serif;
@@ -211,103 +201,7 @@ text-decoration: underline;
 
 }
 
-/* Styles the lightbox, removes it from sight and adds the fade-in transition */
-.lightbox-target {
-position: fixed;
-top: -100%;
-width: 100%;
-background: rgba(255,255,255,.9);
-width: 100%;
-opacity: 0;
--webkit-transition: opacity .5s ease-in-out;
--moz-transition: opacity .5s ease-in-out;
--o-transition: opacity .5s ease-in-out;
-transition: opacity .5s ease-in-out;
-overflow: hidden;
-}
 
-/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-.lightbox-target img {
-margin: auto;
-position: absolute;
-top: 0;
-left:0;
-right:0;
-bottom: 0;
-height: 50%;
-width: 50%;
-box-shadow: 0px 0px 8px rgba(255,255,255, 0.3);
-box-sizing: border-box;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-
-/* Styles the close link, adds the slide down transition */
-a.lightbox-close {
-display: block;
-width:50px;
-height:50px;
-box-sizing: border-box;
-background: rgba(255,255,255, 0.1) ;
-color: black;
-text-decoration: none;
-position: absolute;
-top: -80px;
-right: 0;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-a.lightbox-close:before {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(45deg);
--moz-transform:rotate(45deg);
--o-transform:rotate(45deg);
-transform:rotate(45deg);
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-a.lightbox-close:after {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(-45deg);
--moz-transform:rotate(-45deg);
--o-transform:rotate(-45deg);
-transform:rotate(-45deg);
-}
-
-/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-.lightbox-target:target {
-opacity: 1;
-top: 0;
-bottom: 0;
-}
-
-.lightbox-target:target  {
-max-height: 100%;
-max-width: 100%;
-}
-
-.lightbox-target:target a.lightbox-close {
-top: 0px;
 }
 /* ending of body for portfolio.html */
 .myservices {
@@ -424,73 +318,6 @@ top: 0px;
 
 }
 
-.form-appointment {
-	padding: 2em;
-	border: 1px solid #e83058;
-  font-family: 'Bree Serif', serif;
-  text-transform: uppercase;
-	margin: 20px auto;
-}
-
-.form-appointment input[type=text],
-.form-appointment input[type=email],
-.form-appointment input[type=tel],
-.form-appointment textarea {
-	border: 1px solid #e83058;;
-  text-transform: none;
-	font-family: 'Delius', 'Bree Serif', serif;
-	font-size: 1.1em;
-	padding: .4em 1em;
-	margin: 0 0 .8em;
-	width: 100%;
-  background-color: transparent;
-}
-
-.form-appointment input[type=text],
-.form-appointment input[type=email],
-.form-appointment input[type=tel],
-.form-appointment input[type=submit],
-.form-appointment textarea {
-	-webkit-transition: all .2s ease-in-out;
-	   -moz-transition: all .2s ease-in-out;
-	        transition: all .2s ease-in-out;
-}
-
-.form-appointment input[type=text]:active,
-.form-appointment input[type=text]:focus,
-.form-appointment input[type=email]:active,
-.form-appointment input[type=email]:focus,
-.form-appointment input[type=tel]:active,
-.form-appointment input[type=tel]:focus,
-.form-appointment textarea:active,
-.form-appointment textarea:focus {
-  outline: 0;
-}
-
-.form-appointment textarea {
-	height: 110px;
-}
-
-.form-appointment input[type=submit] {
-
-	border: 1px solid #e83058;
-  color: #e83058;
-	cursor: pointer;
-	font-family: 'Bree Serif', serif;
-	font-size: 1.4em;
-	padding: 10px 18px;
-  background-color: transparent;
-  text-transform: uppercase;
-}
-
-.form-appointment input[type=submit]:hover {
-	background-color: #e83058;
-  color: white;
-}
-
-.form-appointment .wpcf7-list-item-label {
-  color: #e83058;
-}
 
 span.wpcf7-list-item {
 	display: block;
