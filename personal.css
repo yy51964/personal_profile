@@ -131,27 +131,6 @@ h5 a:hover {
 text-decoration: underline;
 }
 
-.btn {
-  font-family: 'Bree Serif', sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  color: #e83058;
-  padding: 14px;
-  text-transform: uppercase;
-  border: solid;
-  border-color: #e83058;
-  border-width: .5px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  font-weight: 100;
-}
-
-.btn:hover {
-  border-color: #e83058;
-  background-color: #e83058;
-  color: white;
-}
-
 .profilepic img {
   width: 210px;
   height: 210px;
