@@ -183,6 +183,13 @@ text-decoration: underline;
 
 }
 
+.myfamily {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
 /* ending of body for home.html */
 
 
