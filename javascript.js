@@ -54,10 +54,3 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-
-
-    $(document).ready(function () {
-      $('input[type=submit]').click(function () {
-        $('input[type=submit]').toggleClass('red');
-      });
-    });
